@@ -1,0 +1,32 @@
+1. drumKit
+    video Tag: added as part of HTML5
+    css basic animation: transition - transform
+
+    add and remove event listeners
+
+
+    Css animation events: animationstart, animationend, animationiteration 
+
+    Events reference: https://developer.mozilla.org/en-US/docs/Web/Events
+
+
+2. Clock
+    CSS properties
+        transform-origin: 100%
+        transform: rotate(90deg)
+        transition: all 0.05s;
+        transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1)
+
+
+general
+    Primitive data types are inmutable
+    example:
+        var a = 10
+        var b = a
+
+        a = 5
+        
+        a // 5
+        b // 10 
+
+    so b is still 10 because it copied the value of a by value, not by reference
